@@ -47,7 +47,7 @@
 }
 
 .menubar-menu-items-holder .action-label::after {
-  padding-left: 2em;
+  padding: 0 2em;
 }
 
 .menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(1) .action-label::after {

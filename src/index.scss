@@ -86,7 +86,7 @@ $menubar-menu-items-holder: (
 // ---
 
 .menubar-menu-items-holder .action-label::after {
-    padding-left: 2em;
+    padding: 0 2em;
 }
 
 @each $nth, $text in map.get($menubar-menu-items-holder, "File") {
