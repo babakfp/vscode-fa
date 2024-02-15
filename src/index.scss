@@ -54,11 +54,6 @@ $menubar-menu-items-holder: (
     ),
 );
 
-.menubar-menu-button .menubar-menu-title {
-    // Vertically center translation texts
-    display: flex;
-}
-
 .menubar-menu-button .menubar-menu-title,
 .menubar-menu-items-holder .action-label {
     // Hide original text
@@ -75,10 +70,23 @@ $menubar-menu-items-holder: (
     color: white;
 }
 
+// ---
+
+.menubar-menu-button .menubar-menu-title {
+    // Vertically center translation texts
+    display: flex;
+}
+
 @each $nth, $text in $menubar-menu-items {
     .menubar-menu-button:nth-child(#{$nth}) .menubar-menu-title::after {
         content: $text;
     }
+}
+
+// ---
+
+.menubar-menu-items-holder .action-label::after {
+    padding-left: 2em;
 }
 
 @each $nth, $text in map.get($menubar-menu-items-holder, "File") {

@@ -4,14 +4,14 @@
 |            Translations             
 | ------------------------------------
 */
-.menubar-menu-button .menubar-menu-title {
-  display: flex;
-}
-
 .menubar-menu-button .menubar-menu-title::after,
 .menubar-menu-items-holder .action-label::after {
   font-size: 12px !important;
   color: white;
+}
+
+.menubar-menu-button .menubar-menu-title {
+  display: flex;
 }
 
 .menubar-menu-button:nth-child(1) .menubar-menu-title::after {
@@ -44,6 +44,10 @@
 
 .menubar-menu-button:nth-child(8) .menubar-menu-title::after {
   content: "کمک";
+}
+
+.menubar-menu-items-holder .action-label::after {
+  padding-left: 2em;
 }
 
 .menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(1) .action-label::after {
