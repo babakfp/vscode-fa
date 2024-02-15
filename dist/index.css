@@ -14,35 +14,35 @@
   display: flex;
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=File] .menubar-menu-title::after {
   content: "فایل";
 }
 
-.menubar-menu-button:nth-child(2) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=Edit] .menubar-menu-title::after {
   content: "ویرایش";
 }
 
-.menubar-menu-button:nth-child(3) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=Selection] .menubar-menu-title::after {
   content: "انتخاب";
 }
 
-.menubar-menu-button:nth-child(4) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=View] .menubar-menu-title::after {
   content: "نمایش";
 }
 
-.menubar-menu-button:nth-child(5) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=Go] .menubar-menu-title::after {
   content: "برو";
 }
 
-.menubar-menu-button:nth-child(6) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=Run] .menubar-menu-title::after {
   content: "اجرا";
 }
 
-.menubar-menu-button:nth-child(7) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=Terminal] .menubar-menu-title::after {
   content: "ترمینال";
 }
 
-.menubar-menu-button:nth-child(8) .menubar-menu-title::after {
+.menubar-menu-button[aria-label=Help] .menubar-menu-title::after {
   content: "کمک";
 }
 
@@ -50,86 +50,86 @@
   padding: 0 2em;
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(1) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="New Text File"]::after {
   content: "فایل متن جدید";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(2) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="New File..."]::after {
   content: "فایل جدید";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(3) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="New Window"]::after {
   content: "پنجره جدید";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(5) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Open File..."]::after {
   content: "باز کردن فایل";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(6) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Open Folder..."]::after {
   content: "باز کردن پوشه";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(7) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Open Workspace from File..."]::after {
   content: "باز کردن فضای‌کاری از فایل";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(8) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Open Recent"]::after {
   content: "باز کردن اخیر";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(10) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Add Folder to Workspace..."]::after {
   content: "افزودن پوشه به فضای‌کاری";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(11) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Save Workspace As..."]::after {
   content: "ذخیره فضای‌کاری به صورت";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(12) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Duplicate Workspace"]::after {
   content: "تکثیر فضای‌کاری";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(14) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label=Save]::after {
   content: "ذخیره";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(15) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Save As..."]::after {
   content: "ذخیره به صورت";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(16) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Save All"]::after {
   content: "ذخیره همه";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(18) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label=Share]::after {
   content: "اشتراک‌گذاری";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(20) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Auto Save"]::after {
   content: "ذخیره خودکار";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(21) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label=Preferences]::after {
   content: "ترجیحات";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(23) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Revert File"]::after {
   content: "بازگرداندن فایل";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(24) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Close Editor"]::after {
   content: "بستن ویرایشگر";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(25) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Close Folder"]::after {
   content: "بستن پوشه";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(26) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label="Close Window"]::after {
   content: "بستن پنجره";
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title + .menubar-menu-items-holder .action-item:nth-child(28) .action-label::after {
+.actions-container[aria-label=File] .action-label[aria-label=Exit]::after {
   content: "خروج";
 }

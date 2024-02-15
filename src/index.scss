@@ -8,49 +8,47 @@
 
 $is-prd: false;
 
-// prettier-ignore
 $menubar-menu-items: (
-    1: "فایل", // File
-    2: "ویرایش", // Edit
-    3: "انتخاب", // Selection
-    4: "نمایش", // View
-    5: "برو", // Go
-    6: "اجرا", // Run
-    7: "ترمینال", // Terminal
-    8: "کمک", // Help
+    "File": "فایل",
+    "Edit": "ویرایش",
+    "Selection": "انتخاب",
+    "View": "نمایش",
+    "Go": "برو",
+    "Run": "اجرا",
+    "Terminal": "ترمینال",
+    "Help": "کمک",
 );
 
-// prettier-ignore
 $menubar-menu-items-holder: (
     "File": (
-        1: "فایل متن جدید", // New Text File
-        2: "فایل جدید", // New File...
-        3: "پنجره جدید", // New Window
+        "New Text File": "فایل متن جدید",
+        "New File...": "فایل جدید",
+        "New Window": "پنجره جدید",
         // ---
-        5: "باز کردن فایل", // Open File...
-        6: "باز کردن پوشه", // Open Folder...
-        7: "باز کردن فضای‌کاری از فایل", // Open Workspace from File...
-        8: "باز کردن اخیر", // Open Recent
+        "Open File...": "باز کردن فایل",
+        "Open Folder...": "باز کردن پوشه",
+        "Open Workspace from File...": "باز کردن فضای‌کاری از فایل",
+        "Open Recent": "باز کردن اخیر",
         // ---
-        10: "افزودن پوشه به فضای‌کاری", // Add Folder to Workspace...
-        11: "ذخیره فضای‌کاری به صورت", // Save Workspace As...
-        12: "تکثیر فضای‌کاری", // Duplicate Workspace
+        "Add Folder to Workspace...": "افزودن پوشه به فضای‌کاری",
+        "Save Workspace As...": "ذخیره فضای‌کاری به صورت",
+        "Duplicate Workspace": "تکثیر فضای‌کاری",
         // ---
-        14: "ذخیره", // Save
-        15: "ذخیره به صورت", // Save As...
-        16: "ذخیره همه", // Save All
+        "Save": "ذخیره",
+        "Save As...": "ذخیره به صورت",
+        "Save All": "ذخیره همه",
         // ---
-        18: "اشتراک‌گذاری", // Share
+        "Share": "اشتراک‌گذاری",
         // ---
-        20: "ذخیره خودکار", // Auto Save
-        21: "ترجیحات", // Preferences
+        "Auto Save": "ذخیره خودکار",
+        "Preferences": "ترجیحات",
         // ---
-        23: "بازگرداندن فایل", // Revert File
-        24: "بستن ویرایشگر", // Close Editor
-        25: "بستن پوشه", // Close Folder
-        26: "بستن پنجره", // Close Window
+        "Revert File": "بازگرداندن فایل",
+        "Close Editor": "بستن ویرایشگر",
+        "Close Folder": "بستن پوشه",
+        "Close Window": "بستن پنجره",
         // ---
-        28: "خروج", // Exit
+        "Exit": "خروج",
     ),
 );
 
@@ -77,9 +75,9 @@ $menubar-menu-items-holder: (
     display: flex;
 }
 
-@each $nth, $text in $menubar-menu-items {
-    .menubar-menu-button:nth-child(#{$nth}) .menubar-menu-title::after {
-        content: $text;
+@each $o, $t in $menubar-menu-items {
+    .menubar-menu-button[aria-label="#{$o}"] .menubar-menu-title::after {
+        content: $t;
     }
 }
 
@@ -89,12 +87,9 @@ $menubar-menu-items-holder: (
     padding: 0 2em;
 }
 
-@each $nth, $text in map.get($menubar-menu-items-holder, "File") {
-    .menubar-menu-button:nth-child(1)
-        .menubar-menu-title
-        + .menubar-menu-items-holder
-        .action-item:nth-child(#{$nth})
-        .action-label::after {
-        content: $text;
+@each $o, $t in map.get($menubar-menu-items-holder, "File") {
+    .actions-container[aria-label="File"]
+        .action-label[aria-label="#{$o}"]::after {
+        content: $t;
     }
 }
