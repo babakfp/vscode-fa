@@ -69,81 +69,95 @@
     content: "پنجره جدید";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(4) .action-label::after {
+/* Skipped hr (4) */
+
+.menubar-menu-items-holder .action-item:nth-child(5) .action-label::after {
     /* Open File.... */
     content: "باز کردن فایل";
 }
-.menubar-menu-items-holder .action-item:nth-child(5) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(6) .action-label::after {
     /* Open Folder... */
     content: "باز کردن پوشه";
 }
-.menubar-menu-items-holder .action-item:nth-child(6) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(7) .action-label::after {
     /* Open Workspace from File... */
     content: "باز کردن فضای‌کاری از فایل";
 }
-.menubar-menu-items-holder .action-item:nth-child(7) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(8) .action-label::after {
     /* Open Recent */
     content: "باز کردن اخیر";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(8) .action-label::after {
+/* Skipped hr (9) */
+
+.menubar-menu-items-holder .action-item:nth-child(10) .action-label::after {
     /* Add Folder to Workspace... */
     content: "افزودن پوشه به فضای‌کاری";
 }
-.menubar-menu-items-holder .action-item:nth-child(9) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(11) .action-label::after {
     /* Save Workspace As... */
     content: "ذخیره فضای‌کاری به صورت";
 }
-.menubar-menu-items-holder .action-item:nth-child(10) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(12) .action-label::after {
     /* Duplicate Workspace */
     content: "تکثیر فضای‌کاری";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(11) .action-label::after {
+/* Skipped hr (13) */
+
+.menubar-menu-items-holder .action-item:nth-child(14) .action-label::after {
     /* Save */
     content: "ذخیره";
 }
-.menubar-menu-items-holder .action-item:nth-child(12) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(15) .action-label::after {
     /* Save As... */
     content: "ذخیره به صورت";
 }
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(16) .action-label::after {
     /* Save All */
     content: "ذخیره همه";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+/* Skipped hr (17) */
+
+.menubar-menu-items-holder .action-item:nth-child(18) .action-label::after {
     /* Share */
     content: "اشتراک‌گذاری";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+/* Skipped hr (19) */
+
+.menubar-menu-items-holder .action-item:nth-child(20) .action-label::after {
     /* Auto Save */
     content: "ذخیره خودکار";
 }
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(21) .action-label::after {
     /* Preferences */
     content: "ترجیحات";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+/* Skipped hr (22) */
+
+.menubar-menu-items-holder .action-item:nth-child(23) .action-label::after {
     /* Revert File */
     content: "بازگرداندن فایل";
 }
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(24) .action-label::after {
     /* Revert Editor */
     content: "بازگرداندن ویرایشگر";
 }
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(25) .action-label::after {
     /* Revert Folder */
     content: "بازگرداندن پوشه";
 }
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+.menubar-menu-items-holder .action-item:nth-child(26) .action-label::after {
     /* Revert Window */
     content: "بازگرداندن پنجره";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+/* Skipped hr (27) */
+
+.menubar-menu-items-holder .action-item:nth-child(28) .action-label::after {
     /* Exit */
     content: "خروج";
 }
