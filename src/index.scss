@@ -6,7 +6,7 @@
 | ------------------------------------
 */
 
-$is-dev: true;
+$is-prd: false;
 
 // prettier-ignore
 $menubar-menu-items: (
@@ -57,8 +57,10 @@ $menubar-menu-items-holder: (
 .menubar-menu-button .menubar-menu-title,
 .menubar-menu-items-holder .action-label {
     // Hide original text
-    // font-size: 0 !important;
-    // color: transparent;
+    @if $is-prd {
+        font-size: 0 !important;
+        color: transparent;
+    }
 
     // Align center translations
     display: flex;
