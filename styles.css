@@ -18,71 +18,92 @@
 }
 
 .menubar-menu-button:nth-child(1) .menubar-menu-title::after {
-    content: "فایل"; /* File */
+    /* File */
+    content: "فایل";
 }
 .menubar-menu-button:nth-child(2) .menubar-menu-title::after {
-    content: "ویرایش"; /* Edit */
+    /* Edit */
+    content: "ویرایش";
 }
 .menubar-menu-button:nth-child(3) .menubar-menu-title::after {
-    content: "انتخاب"; /* Selection */
+    /* Selection */
+    content: "انتخاب";
 }
 .menubar-menu-button:nth-child(4) .menubar-menu-title::after {
-    content: "نمایش"; /* View */
+    /* View */
+    content: "نمایش";
 }
 .menubar-menu-button:nth-child(5) .menubar-menu-title::after {
-    content: "برو"; /* Go */
+    /* Go */
+    content: "برو";
 }
 .menubar-menu-button:nth-child(6) .menubar-menu-title::after {
-    content: "اجرا"; /* Run */
+    /* Run */
+    content: "اجرا";
 }
 .menubar-menu-button:nth-child(7) .menubar-menu-title::after {
-    content: "ترمینال"; /* Terminal */
+    /* Terminal */
+    content: "ترمینال";
 }
 .menubar-menu-button:nth-child(8) .menubar-menu-title::after {
-    content: "کمک"; /* Help */
+    /* Help */
+    content: "کمک";
 }
 
 /* File */
 
 .menubar-menu-items-holder .action-item:nth-child(1) .action-label::after {
-    content: "فایل متن جدید"; /* New Text File */
+    /* New Text File */
+    content: "فایل متن جدید";
 }
 .menubar-menu-items-holder .action-item:nth-child(2) .action-label::after {
-    content: "فایل جدید..."; /* New File... */
+    /* New File... */
+    content: "فایل جدید...";
 }
 .menubar-menu-items-holder .action-item:nth-child(3) .action-label::after {
-    content: "پنجره جدید"; /* New Window */
+    /* New Window */
+    content: "پنجره جدید";
 }
 
 .menubar-menu-items-holder .action-item:nth-child(4) .action-label::after {
-    content: "باز کردن فایل"; /* Open File.... */
+    /* Open File.... */
+    content: "باز کردن فایل";
 }
 .menubar-menu-items-holder .action-item:nth-child(5) .action-label::after {
-    content: "باز کردن پوشه"; /* Open Folder... */
+    /* Open Folder... */
+    content: "باز کردن پوشه";
 }
 .menubar-menu-items-holder .action-item:nth-child(6) .action-label::after {
-    content: "باز کردن فضای‌کاری از فایل"; /* Open Workspace from File... */
+    /* Open Workspace from File... */
+    content: "باز کردن فضای‌کاری از فایل";
 }
 .menubar-menu-items-holder .action-item:nth-child(7) .action-label::after {
-    content: "باز کردن اخیر"; /* Open Recent */
+    /* Open Recent */
+    content: "باز کردن اخیر";
 }
 
 .menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    content: ""; /*  */
+    /*  */
+    content: "";
 }
 .menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    content: ""; /*  */
+    /*  */
+    content: "";
 }
 .menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    content: ""; /*  */
+    /*  */
+    content: "";
 }
 
 .menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    content: ""; /*  */
+    /*  */
+    content: "";
 }
 .menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    content: ""; /*  */
+    /*  */
+    content: "";
 }
 .menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    content: ""; /*  */
+    /*  */
+    content: "";
 }
