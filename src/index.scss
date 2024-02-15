@@ -18,6 +18,40 @@ $menubar-menu-items: (
     8: "کمک", // Help
 );
 
+// prettier-ignore
+$menubar-menu-items-holder: (
+    "File": (
+        1: "فایل متن جدید", // New Text File
+        2: "فایل جدید...", // New File...
+        3: "پنجره جدید", // New Window
+        // ---
+        5: "باز کردن فایل", // Open File...
+        6: "باز کردن پوشه", // Open Folder...
+        7: "باز کردن فضای‌کاری از فایل", // Open Workspace from File...
+        8: "باز کردن اخیر", // Open Recent
+        // ---
+        10: "افزودن پوشه به فضای‌کاری", // Add Folder to Workspace...
+        11: "ذخیره فضای‌کاری به صورت", // Save Workspace As...
+        12: "تکثیر فضای‌کاری", // Duplicate Workspace
+        // ---
+        14: "ذخیره", // Save
+        15: "ذخیره به صورت", // Save As...
+        16: "ذخیره همه", // Save All
+        // ---
+        18: "اشتراک‌گذاری", // Share
+        // ---
+        20: "ذخیره خودکار", // Auto Save
+        21: "ترجیحات", // Preferences
+        // ---
+        23: "بازگرداندن فایل", // Revert File
+        24: "بستن ویرایشگر", // Close Editor
+        25: "بستن پوشه", // Close Folder
+        26: "بستن پنجره", // Close Window
+        // ---
+        28: "خروج", // Exit
+    ),
+);
+
 .menubar-menu-button .menubar-menu-title,
 .menubar-menu-items-holder .action-label {
     /* Hide original text */
@@ -41,194 +75,12 @@ $menubar-menu-items: (
     }
 }
 
-/* File */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(1)
-    .action-label::after {
-    /* New Text File */
-    content: "فایل متن جدید";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(2)
-    .action-label::after {
-    /* New File... */
-    content: "فایل جدید...";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(3)
-    .action-label::after {
-    /* New Window */
-    content: "پنجره جدید";
-}
-
-/* Skipped hr (4) */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(5)
-    .action-label::after {
-    /* Open File.... */
-    content: "باز کردن فایل";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(6)
-    .action-label::after {
-    /* Open Folder... */
-    content: "باز کردن پوشه";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(7)
-    .action-label::after {
-    /* Open Workspace from File... */
-    content: "باز کردن فضای‌کاری از فایل";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(8)
-    .action-label::after {
-    /* Open Recent */
-    content: "باز کردن اخیر";
-}
-
-/* Skipped hr (9) */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(10)
-    .action-label::after {
-    /* Add Folder to Workspace... */
-    content: "افزودن پوشه به فضای‌کاری";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(11)
-    .action-label::after {
-    /* Save Workspace As... */
-    content: "ذخیره فضای‌کاری به صورت";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(12)
-    .action-label::after {
-    /* Duplicate Workspace */
-    content: "تکثیر فضای‌کاری";
-}
-
-/* Skipped hr (13) */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(14)
-    .action-label::after {
-    /* Save */
-    content: "ذخیره";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(15)
-    .action-label::after {
-    /* Save As... */
-    content: "ذخیره به صورت";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(16)
-    .action-label::after {
-    /* Save All */
-    content: "ذخیره همه";
-}
-
-/* Skipped hr (17) */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(18)
-    .action-label::after {
-    /* Share */
-    content: "اشتراک‌گذاری";
-}
-
-/* Skipped hr (19) */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(20)
-    .action-label::after {
-    /* Auto Save */
-    content: "ذخیره خودکار";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(21)
-    .action-label::after {
-    /* Preferences */
-    content: "ترجیحات";
-}
-
-/* Skipped hr (22) */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(23)
-    .action-label::after {
-    /* Revert File */
-    content: "بازگرداندن فایل";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(24)
-    .action-label::after {
-    /* Close Editor */
-    content: "بستن ویرایشگر";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(25)
-    .action-label::after {
-    /* Close Folder */
-    content: "بستن پوشه";
-}
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(26)
-    .action-label::after {
-    /* Close Window */
-    content: "بستن پنجره";
-}
-
-/* Skipped hr (27) */
-
-.menubar-menu-button:nth-child(1)
-    .menubar-menu-title
-    + .menubar-menu-items-holder
-    .action-item:nth-child(28)
-    .action-label::after {
-    /* Exit */
-    content: "خروج";
+@each $nth, $text in map.get($menubar-menu-items-holder, "File") {
+    .menubar-menu-button:nth-child(1)
+        .menubar-menu-title
+        + .menubar-menu-items-holder
+        .action-item:nth-child(#{$nth})
+        .action-label::after {
+        content: $text;
+    }
 }
