@@ -1,0 +1,88 @@
+/* Translations */
+
+.menubar-menu-button .menubar-menu-title,
+.menubar-menu-items-holder .action-label {
+    /* Hide original text */
+    /* font-size: 0 !important; */
+    /* color: transparent; */
+
+    /* Align center translations */
+    display: flex;
+}
+
+/* Show translations */
+.menubar-menu-button .menubar-menu-title::after,
+.menubar-menu-items-holder .action-label::after {
+    font-size: 12px !important;
+    color: white;
+}
+
+.menubar-menu-button:nth-child(1) .menubar-menu-title::after {
+    content: "فایل"; /* File */
+}
+.menubar-menu-button:nth-child(2) .menubar-menu-title::after {
+    content: "ویرایش"; /* Edit */
+}
+.menubar-menu-button:nth-child(3) .menubar-menu-title::after {
+    content: "انتخاب"; /* Selection */
+}
+.menubar-menu-button:nth-child(4) .menubar-menu-title::after {
+    content: "نمایش"; /* View */
+}
+.menubar-menu-button:nth-child(5) .menubar-menu-title::after {
+    content: "برو"; /* Go */
+}
+.menubar-menu-button:nth-child(6) .menubar-menu-title::after {
+    content: "اجرا"; /* Run */
+}
+.menubar-menu-button:nth-child(7) .menubar-menu-title::after {
+    content: "ترمینال"; /* Terminal */
+}
+.menubar-menu-button:nth-child(8) .menubar-menu-title::after {
+    content: "کمک"; /* Help */
+}
+
+/* File */
+
+.menubar-menu-items-holder .action-item:nth-child(1) .action-label::after {
+    content: "فایل متن جدید"; /* New Text File */
+}
+.menubar-menu-items-holder .action-item:nth-child(2) .action-label::after {
+    content: "فایل جدید..."; /* New File... */
+}
+.menubar-menu-items-holder .action-item:nth-child(3) .action-label::after {
+    content: "پنجره جدید"; /* New Window */
+}
+
+.menubar-menu-items-holder .action-item:nth-child(4) .action-label::after {
+    content: "باز کردن فایل"; /* Open File.... */
+}
+.menubar-menu-items-holder .action-item:nth-child(5) .action-label::after {
+    content: "باز کردن پوشه"; /* Open Folder... */
+}
+.menubar-menu-items-holder .action-item:nth-child(6) .action-label::after {
+    content: "باز کردن فضای‌کاری از فایل"; /* Open Workspace from File... */
+}
+.menubar-menu-items-holder .action-item:nth-child(7) .action-label::after {
+    content: "باز کردن اخیر"; /* Open Recent */
+}
+
+.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
+    content: ""; /*  */
+}
+.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
+    content: ""; /*  */
+}
+.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
+    content: ""; /*  */
+}
+
+.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
+    content: ""; /*  */
+}
+.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
+    content: ""; /*  */
+}
+.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
+    content: ""; /*  */
+}
