@@ -1,4 +1,8 @@
-/* Translations */
+/*
+| ------------------------------------
+|            Translations             
+| ------------------------------------
+*/
 
 .menubar-menu-button .menubar-menu-title,
 .menubar-menu-items-holder .action-label {
@@ -82,28 +86,64 @@
     content: "باز کردن اخیر";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    /*  */
-    content: "";
+.menubar-menu-items-holder .action-item:nth-child(8) .action-label::after {
+    /* Add Folder to Workspace... */
+    content: "افزودن پوشه به فضای‌کاری";
 }
-.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    /*  */
-    content: "";
+.menubar-menu-items-holder .action-item:nth-child(9) .action-label::after {
+    /* Save Workspace As... */
+    content: "ذخیره فضای‌کاری به صورت";
 }
-.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    /*  */
-    content: "";
+.menubar-menu-items-holder .action-item:nth-child(10) .action-label::after {
+    /* Duplicate Workspace */
+    content: "تکثیر فضای‌کاری";
 }
 
-.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    /*  */
-    content: "";
+.menubar-menu-items-holder .action-item:nth-child(11) .action-label::after {
+    /* Save */
+    content: "ذخیره";
 }
-.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    /*  */
-    content: "";
+.menubar-menu-items-holder .action-item:nth-child(12) .action-label::after {
+    /* Save As... */
+    content: "ذخیره به صورت";
 }
-.menubar-menu-items-holder .action-item:nth-child(0) .action-label::after {
-    /*  */
-    content: "";
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Save All */
+    content: "ذخیره همه";
+}
+
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Share */
+    content: "اشتراک‌گذاری";
+}
+
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Auto Save */
+    content: "ذخیره خودکار";
+}
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Preferences */
+    content: "ترجیحات";
+}
+
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Revert File */
+    content: "بازگرداندن فایل";
+}
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Revert Editor */
+    content: "بازگرداندن ویرایشگر";
+}
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Revert Folder */
+    content: "بازگرداندن پوشه";
+}
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Revert Window */
+    content: "بازگرداندن پنجره";
+}
+
+.menubar-menu-items-holder .action-item:nth-child(13) .action-label::after {
+    /* Exit */
+    content: "خروج";
 }
