@@ -4,8 +4,7 @@
 |            Translations             
 | ------------------------------------
 */
-.menubar-menu-button .menubar-menu-title,
-.menubar-menu-items-holder .action-label {
+.menubar-menu-button .menubar-menu-title {
   display: flex;
 }
 

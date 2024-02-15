@@ -54,6 +54,11 @@ $menubar-menu-items-holder: (
     ),
 );
 
+.menubar-menu-button .menubar-menu-title {
+    // Vertically center translation texts
+    display: flex;
+}
+
 .menubar-menu-button .menubar-menu-title,
 .menubar-menu-items-holder .action-label {
     // Hide original text
@@ -61,9 +66,6 @@ $menubar-menu-items-holder: (
         font-size: 0 !important;
         color: transparent;
     }
-
-    // Align center translations
-    display: flex;
 }
 
 // Show translations
