@@ -1,8 +1,22 @@
+@use "sass:map";
+
 /*
 | ------------------------------------
 |            Translations             
 | ------------------------------------
 */
+
+// prettier-ignore
+$menubar-menu-items: (
+    1: "فایل", // File
+    2: "ویرایش", // Edit
+    3: "انتخاب", // Selection
+    4: "نمایش", // View
+    5: "برو", // Go
+    6: "اجرا", // Run
+    7: "ترمینال", // Terminal
+    8: "کمک", // Help
+);
 
 .menubar-menu-button .menubar-menu-title,
 .menubar-menu-items-holder .action-label {
@@ -21,37 +35,10 @@
     color: white;
 }
 
-.menubar-menu-button:nth-child(1) .menubar-menu-title::after {
-    /* File */
-    content: "فایل";
-}
-.menubar-menu-button:nth-child(2) .menubar-menu-title::after {
-    /* Edit */
-    content: "ویرایش";
-}
-.menubar-menu-button:nth-child(3) .menubar-menu-title::after {
-    /* Selection */
-    content: "انتخاب";
-}
-.menubar-menu-button:nth-child(4) .menubar-menu-title::after {
-    /* View */
-    content: "نمایش";
-}
-.menubar-menu-button:nth-child(5) .menubar-menu-title::after {
-    /* Go */
-    content: "برو";
-}
-.menubar-menu-button:nth-child(6) .menubar-menu-title::after {
-    /* Run */
-    content: "اجرا";
-}
-.menubar-menu-button:nth-child(7) .menubar-menu-title::after {
-    /* Terminal */
-    content: "ترمینال";
-}
-.menubar-menu-button:nth-child(8) .menubar-menu-title::after {
-    /* Help */
-    content: "کمک";
+@each $nth, $text in $menubar-menu-items {
+    .menubar-menu-button:nth-child(#{$nth}) .menubar-menu-title::after {
+        content: $text;
+    }
 }
 
 /* File */

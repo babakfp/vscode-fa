@@ -21,42 +21,34 @@
 }
 
 .menubar-menu-button:nth-child(1) .menubar-menu-title::after {
-  /* File */
   content: "فایل";
 }
 
 .menubar-menu-button:nth-child(2) .menubar-menu-title::after {
-  /* Edit */
   content: "ویرایش";
 }
 
 .menubar-menu-button:nth-child(3) .menubar-menu-title::after {
-  /* Selection */
   content: "انتخاب";
 }
 
 .menubar-menu-button:nth-child(4) .menubar-menu-title::after {
-  /* View */
   content: "نمایش";
 }
 
 .menubar-menu-button:nth-child(5) .menubar-menu-title::after {
-  /* Go */
   content: "برو";
 }
 
 .menubar-menu-button:nth-child(6) .menubar-menu-title::after {
-  /* Run */
   content: "اجرا";
 }
 
 .menubar-menu-button:nth-child(7) .menubar-menu-title::after {
-  /* Terminal */
   content: "ترمینال";
 }
 
 .menubar-menu-button:nth-child(8) .menubar-menu-title::after {
-  /* Help */
   content: "کمک";
 }
 
