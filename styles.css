@@ -143,16 +143,16 @@
     content: "بازگرداندن فایل";
 }
 .menubar-menu-items-holder .action-item:nth-child(24) .action-label::after {
-    /* Revert Editor */
-    content: "بازگرداندن ویرایشگر";
+    /* Close Editor */
+    content: "بستن ویرایشگر";
 }
 .menubar-menu-items-holder .action-item:nth-child(25) .action-label::after {
-    /* Revert Folder */
-    content: "بازگرداندن پوشه";
+    /* Close Folder */
+    content: "بستن پوشه";
 }
 .menubar-menu-items-holder .action-item:nth-child(26) .action-label::after {
-    /* Revert Window */
-    content: "بازگرداندن پنجره";
+    /* Close Window */
+    content: "بستن پنجره";
 }
 
 /* Skipped hr (27) */
